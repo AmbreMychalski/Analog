@@ -1,0 +1,17 @@
+digraph {
+0 [label="/SiteWebIF/Intranet-etudiant.php"];
+1 [label="-"];
+2 [label="http://if.insa-lyon.fr/"];
+3 [label="/SiteWebIF/Intranet-etudiant.php?ticket=ST-53993-XrcVeCUupj2A3AWsDgOY-dsi-vm03"];
+4 [label="/stages/FondInsa.jpg"];
+5 [label="/stages/InsaIF.ico"];
+6 [label="/stages/bandeauFinal.jpg"];
+7 [label="/stages/style_pfe.css"];
+1 -> 0 [label="1"];
+2 -> 0 [label="2"];
+1 -> 3 [label="1"];
+0 -> 4 [label="1"];
+1 -> 5 [label="1"];
+0 -> 6 [label="1"];
+0 -> 7 [label="1"];
+}

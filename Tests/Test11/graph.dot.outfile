@@ -1,0 +1,18 @@
+digraph {
+0 [label="/notesif/RSS/RSS_4IF.xml"];
+1 [label="/temps/"];
+2 [label="http://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CDIQFjAB&url=http%3A%2F%2Fintranet-if.insa-lyon.fr%2Ftemps%2F&ei=_wxLUKCwEMaJhQe08oCYCw&usg=AFQjCNEWrHsRdIlhli_31qYl94w-yMCjpw&sig2=eTdZgqmz8aDAi5eiWxEP1g"];
+3 [label="/temps/3IF3.html"];
+4 [label="/temps/3IF2.html"];
+5 [label="/temps/3IF37.html"];
+6 [label="/temps/4IF16.html"];
+7 [label="/temps/4IF15.html"];
+8 [label="/temps/4IF3.ics"];
+9 [label="-"];
+0 -> 0 [label="1"];
+2 -> 1 [label="1"];
+4 -> 3 [label="1"];
+1 -> 5 [label="1"];
+7 -> 6 [label="1"];
+9 -> 8 [label="1"];
+}
